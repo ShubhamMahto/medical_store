@@ -2,14 +2,9 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: blue;
+  min-height: 137px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,12 +13,14 @@
   color: white;
 }
 
-.App-heading {
-  align-items: center;
-  background-color: blue;
+.App-logo {
+  align-content: flex-start;
+  background-color: green;
+  border-radius: 5px;
 }
-
+.App-heading {
+  text-align: center;
+}
 .App-link {
   color: #61dafb;
 }
-
